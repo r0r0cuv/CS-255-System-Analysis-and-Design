@@ -1,47 +1,126 @@
-# CS-255-System-Analysis-and-Design
-CS 255 DriverPass project featuring requirements analysis, UML system modeling, technical system design, and a client-focused presentation.
-
+# CS 255 – System Analysis and Design
 
 ## DriverPass Project
-##Project Overview
-DriverPass was the client for this system analysis/design project. DriverPass wants to develop a web-based driver training application to better assist their students in preparing for their driver's test. Their proposed system would allow customers to sign up for an account, purchase training packages, schedule lessons/track current lessons, take advantage of online training tools, take DMV practice tests, and monitor their progress. DriverPass employees will need to use the system to track customers, instructors, vehicles, appointments, reports, and user access. The overall system will be a cloud-based application available for both computer and mobile device access. 
-              For Project One, I completed my analysis of the DriverPass interview. From there I developed a Business Requirements Document that outlined the client's functional requirements and nonfunctional requirements. For Project Two, I took those requirements and developed a System Design Document complete with UML use case, activity, sequence, and class diagrams. I also included technical requirements for the proposed system. 
 
-##Reflection
+### Project Overview
+
+DriverPass was the client for this **system analysis and design project**. DriverPass wanted to develop a **web-based driver training application** to better assist students in preparing for their driver's tests. The proposed system allows customers to create accounts, purchase training packages, schedule and manage driving lessons, access online training tools, take DMV practice tests, and monitor their progress.
+
+DriverPass employees also need the system to manage customers, instructors, vehicles, appointments, reports, and user access. The overall system was designed as a **cloud-based application** that can be accessed from computers and mobile devices.
+
+For **Project One**, I analyzed the DriverPass interview and developed a **Business Requirements Document** that outlined the client's functional and nonfunctional requirements.
+
+For **Project Two**, I used those requirements to develop a **System Design Document** that included UML use case, activity, sequence, and class diagrams. I also identified the technical requirements necessary to support the proposed system.
+
+In addition to these documents, I created a **Client Presentation** that explains the proposed DriverPass system in clear, nontechnical language.
+
+---
+
+## Reflection
+
 ### What did I do particularly well?
-One area I believe I did particularly well was translating the client's requests into clear system requirements. I identified the different users of the system and considered what each user needed to accomplish. For example, customers need to schedule driving lessons and take practice tests, secretaries need to manage reservations, instructors need access to lesson information, and administrators need to manage user accounts and security.
-I also did well connecting the requirements to my UML diagrams. Instead of treating each diagram as a separate assignment, I used them to represent different views of the same DriverPass system. The use case diagram identifies the users and their interactions with the system, the activity diagrams show the steps involved in important processes, the sequence diagram shows how different parts of the system communicate during a process, and the class diagram identifies the information and relationships the system needs to maintain.
-What would I revise?
-If I could go back and change one aspect of my project, I would continue editing my UML diagrams to make them as organized and readable as possible. DriverPass has quite a few users, functionalities, and relationships so some of my diagrams get cluttered when too much information is added to them. I would fix this by removing unnecessary connections, clustering related info, fixing spacing, and limiting how many lines cross. I would also continue going through each diagram and comparing it to the client requirements to ensure every component has a reason for being there. This would help developers and nontechnical stakeholders understand the design. 
 
-How did I interpret the user's needs and implement them into my system design?
-I interpreted the user needs by reading the DriverPass interview questions and determining what the client needed the system to do. From there I translated those into requirements, both functional and nonfunctional. For instance, we needed the customers and staff to be able to schedule appointments online so a need became the requirement to allow customers to create, edit, and cancel appointments. Another was to provide up-to-date practice tests which became the system requiring updated DMV info. Needs I translated into security included unique user accounts, role based access, encrypted information exchange, and restricting access to sensitive customer information. Needs should be considered because you can have a system that functions correctly but if you aren't solving the user's problem it is useless. You need to know who your users are, what they need to do, and how they want to do it in order to design a system that works for the business and it's customers. 
-How do I approach designing software?
-The approach that I took to software design started with understanding the problem first instead of trying to figure out how the system should be built. From there, I identified the stakeholders, their goals, requirements, constraints, and major business processes. Next I organized those requirements before using different modeling techniques (use case, activity, sequence, and class diagrams) to view the system from different angles. 
-If I were to work on this project again in the future, I would employ an iterative approach again. I would gather requirements, produce an initial design, review design with stakeholders, gather feedback and revise before any development started. I would also continue to use process modeling and object modeling where it was appropriate. Process modeling allows me to view how tasks will flow through the system. Object modeling allows me to see what data and relationships need to be maintained by the software. The combination of these techniques allow problems to be caught earlier and allow for a design that will be easier to develop, test, and maintain. 
-Portfolio Artifacts
-This repository contains the following CS 255 portfolio artifacts:
- Business Requirements Document – Project One: Requirements gathering, functional and nonfunctional requirements, system limitations, and recommendations. 
-System Design Document – Project Two: UML use case, activity, sequence, and class diagrams along with technical requirements. 
-DriverPass Client Presentation: A nontechnical presentation explaining the proposed system requirements, design, security, and limitations to the client.
+One area I believe I did particularly well was **translating the client's requests into clear system requirements**. I identified the different users of the system and considered what each user needed to accomplish. For example, customers need to schedule driving lessons and take practice tests, secretaries need to manage reservations, instructors need access to lesson information, and administrators need to manage user accounts and security.
 
-Skills Demonstrated
-•	Systems analysis and design
-•	Requirements gathering and analysis
-•	Functional and nonfunctional requirements
-•	UML modeling
-•	Use case diagrams
-•	Activity diagrams
-•	Sequence diagrams
-•	Class diagrams
-•	Process modeling
-•	Object modeling
-•	Security requirements
-•	Technical documentation
-•	Client communication
-•	Cloud-based system planning
-________________________________________
-Course: CS 255 – System Analysis and Design
-Institution: Southern New Hampshire University
-Author: Rosalie Reblora
+I also did well connecting the requirements to my **UML diagrams**. Instead of treating each diagram as a separate assignment, I used them to represent different views of the same DriverPass system. The **use case diagram** identifies the users and their interactions with the system, the **activity diagrams** show the steps involved in important processes, the **sequence diagram** shows how different parts of the system interact during a process, and the **class diagram** identifies the information and relationships the system needs to maintain.
+
+### What would I revise?
+
+If I could go back and change one aspect of my project, I would continue improving my **UML diagrams** to make them as organized and readable as possible. DriverPass has many users, functions, and relationships, so some diagrams can become cluttered when too much information is included.
+
+I would improve the diagrams by removing unnecessary connections, grouping related information, improving spacing, and reducing the number of crossing lines. I would also continue reviewing each diagram against the client's requirements to ensure that every component has a clear purpose. This would make the design easier for both developers and nontechnical stakeholders to understand.
+
+### How did I interpret the user's needs and implement them into my system design?
+
+I interpreted the user's needs by carefully reviewing the **DriverPass interview** and identifying what the client needed the system to accomplish. From there, I translated those needs into both **functional and nonfunctional requirements**.
+
+For example, customers and staff needed the ability to manage driving appointments online, so this became a requirement that allows authorized users to **create, modify, and cancel appointments**. The client's need for current practice tests became a requirement for the system to receive **updated DMV information and practice-test content**.
+
+I also translated the client's security needs into requirements such as **unique user accounts, role-based access, encrypted communication, and protection of sensitive customer information**.
+
+Considering user needs is important because a system can function correctly from a technical perspective but still fail if it does not solve the user's actual problems. Understanding **who the users are, what they need to accomplish, and how they expect to interact with the system** helps ensure that the final design supports both the business and its customers.
+
+### How do I approach designing software?
+
+My approach to software design begins with **understanding the problem before determining how the system should be built**. I first identify the stakeholders, their goals, requirements, constraints, and major business processes. I then organize those requirements and use different modeling techniques, including **use case, activity, sequence, and class diagrams**, to examine the system from different perspectives.
+
+For future projects, I would continue using an **iterative approach**. I would gather requirements, create an initial design, review the design with stakeholders, collect feedback, and revise the design before development begins.
+
+I would also continue using **process modeling and object modeling** when appropriate. Process modeling helps me understand how tasks flow through a system, while object modeling helps me identify the data and relationships that the software must maintain. Combining these techniques can help identify problems earlier and create a system that is easier to **develop, test, maintain, and improve**.
+
+---
+
+## Portfolio Artifacts
+
+This repository contains my final **CS 255 DriverPass project artifacts**:
+
+### 📄 Business Requirements Document – Project One
+Demonstrates requirements gathering and analysis, including:
+- Functional requirements
+- Nonfunctional requirements
+- Security requirements
+- System limitations
+- Business assumptions
+- System recommendations
+
+### 📐 System Design Document – Project Two
+Demonstrates the transformation of business requirements into a technical system design, including:
+- UML Use Case Diagram
+- UML Activity Diagrams
+- UML Sequence Diagram
+- UML Class Diagram
+- Technical requirements
+- Hardware and software requirements
+- Security and infrastructure requirements
+
+### 📊 DriverPass Client Presentation
+Demonstrates my ability to communicate a technical system design to a **nontechnical audience**. The presentation explains:
+- System requirements
+- Use case design
+- Activity design
+- Security
+- System limitations
+
+---
+
+## Skills Demonstrated
+
+- **Systems Analysis and Design**
+- **Requirements Gathering and Analysis**
+- **Functional and Nonfunctional Requirements**
+- **UML Modeling**
+- **Use Case Diagrams**
+- **Activity Diagrams**
+- **Sequence Diagrams**
+- **Class Diagrams**
+- **Process Modeling**
+- **Object Modeling**
+- **Security Requirements**
+- **Technical Documentation**
+- **Client Communication**
+- **Cloud-Based System Planning**
+
+---
+
+## Tools and Technologies
+
+- **Lucidchart**
+- **UML**
+- **Microsoft Word**
+- **Microsoft PowerPoint**
+- **Requirements Analysis**
+- **Process Modeling**
+- **Object-Oriented System Design**
+
+---
+
+## About This Project
+
+This project demonstrates my ability to take a client's business needs and translate them into **documented system requirements and technical designs**. It also demonstrates my ability to communicate those designs to both **technical and nontechnical audiences**.
+
+---
+
+**Course:** CS 255 – System Analysis and Design  
+**Institution:** Southern New Hampshire University  
+**Author:** Rosalie Reblora
 

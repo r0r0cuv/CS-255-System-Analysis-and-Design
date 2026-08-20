@@ -2,13 +2,13 @@
 CS 255 DriverPass project featuring requirements analysis, UML system modeling, technical system design, and a client-focused presentation.
 
 
-DriverPass Project
-Project Overview
+## DriverPass Project
+##Project Overview
 DriverPass was the client for this system analysis/design project. DriverPass wants to develop a web-based driver training application to better assist their students in preparing for their driver's test. Their proposed system would allow customers to sign up for an account, purchase training packages, schedule lessons/track current lessons, take advantage of online training tools, take DMV practice tests, and monitor their progress. DriverPass employees will need to use the system to track customers, instructors, vehicles, appointments, reports, and user access. The overall system will be a cloud-based application available for both computer and mobile device access. 
               For Project One, I completed my analysis of the DriverPass interview. From there I developed a Business Requirements Document that outlined the client's functional requirements and nonfunctional requirements. For Project Two, I took those requirements and developed a System Design Document complete with UML use case, activity, sequence, and class diagrams. I also included technical requirements for the proposed system. 
 
-Reflection
-What did I do particularly well?
+##Reflection
+### What did I do particularly well?
 One area I believe I did particularly well was translating the client's requests into clear system requirements. I identified the different users of the system and considered what each user needed to accomplish. For example, customers need to schedule driving lessons and take practice tests, secretaries need to manage reservations, instructors need access to lesson information, and administrators need to manage user accounts and security.
 I also did well connecting the requirements to my UML diagrams. Instead of treating each diagram as a separate assignment, I used them to represent different views of the same DriverPass system. The use case diagram identifies the users and their interactions with the system, the activity diagrams show the steps involved in important processes, the sequence diagram shows how different parts of the system communicate during a process, and the class diagram identifies the information and relationships the system needs to maintain.
 What would I revise?
